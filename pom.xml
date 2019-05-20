@@ -19,7 +19,6 @@
     <developerConnection>scm:git:https://github.com/yeno-web-experts/spring-petclinic</developerConnection>
     <url>https://github.com/yeno-web-experts/spring-petclinic/tree/${project.scm.tag}</url>
     <tag>master</tag>
-    <id>my-scm-server</id>
   </scm>
 
   <properties>
@@ -34,7 +33,7 @@
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
     <webjars-jquery.version>2.2.4</webjars-jquery.version>
     <wro4j.version>1.8.0</wro4j.version>
-
+    <project.scm.id>my-scm-server<project.scm.id>
     <jacoco.version>0.8.2</jacoco.version>
 
   </properties>
