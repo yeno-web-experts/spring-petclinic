@@ -19,6 +19,7 @@
     <developerConnection>scm:git:https://github.com/yeno-web-experts/spring-petclinic</developerConnection>
     <url>https://github.com/yeno-web-experts/spring-petclinic/tree/${project.scm.tag}</url>
     <tag>master</tag>
+    <id>my-scm-server</id>
   </scm>
 
   <properties>
