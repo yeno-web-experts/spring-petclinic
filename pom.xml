@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>${release.version}</version>
+  <version>${relVersion}</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -44,6 +44,7 @@
     <wro4j.version>1.8.0</wro4j.version>
     <project.scm.id>my-scm-server</project.scm.id>
     <jacoco.version>0.8.2</jacoco.version>
+    <relVersion>${release.version}</relVersion>
 
   </properties>
 
