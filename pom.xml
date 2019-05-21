@@ -44,8 +44,6 @@
     <wro4j.version>1.8.0</wro4j.version>
     <project.scm.id>my-scm-server</project.scm.id>
     <jacoco.version>0.8.2</jacoco.version>
-    <relVersion>${relVersion}</relVersion>
-
   </properties>
 
   <dependencies>
