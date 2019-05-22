@@ -5,10 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <condition property="is_m2releasebuild" value="true" else="-SNAPSHOT">
-                        <isset property="" />
-  </condition>
-  <version>${mygroup-myartifact.version}${is_m2releasebuild}</version>
+  <version>${mygroup-myartifact.version}</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
