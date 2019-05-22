@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>${mygroup-myartifact.version}</version>
+  <version>${project.version}</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -147,6 +147,23 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.5</version>
+                    <executions>
+                        <execution>
+                            <id>generate-default-version</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                            <configuration>
+                                <classifier>${BUILD_NUMBER}</classifier>
+                            </configuration>
+                        </execution>
+                    </executions>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
