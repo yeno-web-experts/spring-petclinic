@@ -1,4 +1,4 @@
-multibranchPipelineJob{
+Pipeline{
     agent any
     
     stages{
